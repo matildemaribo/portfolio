@@ -103,6 +103,15 @@ nav a:hover{
 }
 
 /*Main*/
+#top{
+    background-color: rgba(199, 81, 77, 1);
+    height: 92.5vh;
+    display: none;
+}
+#top h1{
+    margin:2vh;
+    color: white;
+}
     /*Hjem side*/
 .roedgrund{
     background-color: rgba(199, 81, 77, 1);
@@ -426,8 +435,8 @@ nav a:hover{
 .navfooter h4{
     text-align: right;
     color: white;
-    font-weight: 100;
-    padding-left: 70vh;
+    font-weight: 400;
+    padding-left: 40vh;
 }
 
 /*Om mig siden*/
@@ -942,11 +951,15 @@ img{
 
 /*Responsive*/
     /*Desktop*/
-@media screen and (max-width: 768px) {
-
-}
-
-    /*Mobil*/
-@media screen and (max-width: 480px) {
-
+@media screen and (max-width: 1126px) {
+    #top{
+        display:block;
+    }
+    /*Overordnet indhold*/
+    footer{
+        display: none;
+    }
+    .roedgrund, #titelroed, .affire, #titelgroen, .blaagrund, .groengrundtop, #titelgul, #opdeltfarve, #roed, .roedgrund, .blaagrund, .top, #groengrund, .blue, .roed, #roeddelen, #titelblaa, #blaagrundkontakt {
+        display: none;
+    }
 }
