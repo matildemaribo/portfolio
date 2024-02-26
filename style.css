@@ -156,12 +156,12 @@ nav a:hover{
     height: 100%;
     object-fit: cover;
 }
-#forside
         /*Om mig title*/
 #titelroed{
     background-color: rgba(199, 81, 77, 1);
     color: white;
     padding: 3vh;
+    z-index: 10;
 }
         /*Række af fire koloner*/
 .affire{
