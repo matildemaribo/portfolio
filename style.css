@@ -103,14 +103,18 @@ nav a:hover{
 }
 
 /*Main*/
-#top{
+.respon{
     background-color: rgba(199, 81, 77, 1);
     height: 92.5vh;
     display: none;
 }
-#top h1{
+.respon h1{
     margin:2vh;
     color: white;
+    display: none;
+}
+.respon h2{
+    display: none;
 }
     /*Hjem side*/
 .roedgrund{
@@ -598,7 +602,7 @@ nav a:hover{
 .afto h4{
     color: white;
 }
-#top{
+#oeverst{
     padding-top: 5vh;
 }
 .roedboks{
@@ -952,7 +956,11 @@ img{
 /*Responsive*/
     /*Desktop*/
 @media screen and (max-width: 1126px) {
-    #top{
+    .respon{
+        display:block;
+    }
+    .respon h1,
+    .respon h2{
         display:block;
     }
     /*Overordnet indhold*/
